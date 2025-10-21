@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héctor Morales - Ingeniero en Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>HM</h2>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#yo">Yo</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#escuelas">Escuelas</a></li>
+                <li><a href="#pasatiempos">Pasatiempos</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#descargas">Descargas</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Héctor Morales">Héctor Morales</h1>
+            <p class="typed-text">Ingeniero en Sistemas</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Contacto</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/hectormrales" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/tu-perfil" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:tu-email@ejemplo.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#yo"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección Yo -->
+    <section id="yo" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Héctor Morales">
+                </div>
+                <div class="about-text">
+                    <h3>¡Hola! Soy Héctor</h3>
+                    <p>
+                        Ingeniero en Sistemas apasionado por la tecnología, la programación y la ciberseguridad. 
+                        Me especializo en el desarrollo de soluciones innovadoras y en la aplicación de 
+                        conocimientos en criptografía para garantizar la seguridad de la información.
+                    </p>
+                    <p>
+                        Con experiencia en múltiples lenguajes de programación y tecnologías, siempre estoy 
+                        en busca de nuevos desafíos que me permitan crecer profesionalmente y aportar valor 
+                        a los proyectos en los que participo.
+                    </p>
+                    <div class="skills">
+                        <h4>Habilidades Técnicas:</h4>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Criptografía</span>
+                            <span class="tag">Seguridad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Sistema de Cifrado RSA</h3>
+                    <p>Implementación de algoritmo RSA para cifrado de mensajes y firma digital.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Criptografía</span>
+                    </div>
+                    <a href="#" class="project-link">Ver más <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Sistema de Gestión</h3>
+                    <p>Aplicación web para gestión de inventarios con base de datos relacional.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="#" class="project-link">Ver más <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Móvil Educativa</h3>
+                    <p>Aplicación móvil para facilitar el aprendizaje de algoritmos.</p>
+                    <div class="project-tags">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="project-link">Ver más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Escuelas -->
+    <section id="escuelas" class="section">
+        <div class="container">
+            <h2 class="section-title">Formación Académica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Ingeniería en Sistemas Computacionales</h3>
+                        <h4>Universidad [Nombre de tu Universidad]</h4>
+                        <p class="timeline-date">2020 - 2024</p>
+                        <p>Formación integral en desarrollo de software, bases de datos, redes, 
+                           ciberseguridad y gestión de proyectos tecnológicos.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Certificación en Ciberseguridad</h3>
+                        <h4>Institución Certificadora</h4>
+                        <p class="timeline-date">2023</p>
+                        <p>Especialización en técnicas avanzadas de seguridad informática y criptografía.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachillerato en Ciencias</h3>
+                        <h4>Preparatoria [Nombre]</h4>
+                        <p class="timeline-date">2017 - 2020</p>
+                        <p>Enfoque en matemáticas y ciencias de la computación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Pasatiempos -->
+    <section id="pasatiempos" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Pasatiempos</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Programación</h3>
+                    <p>Contribuir a proyectos open source y aprender nuevos lenguajes</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Videojuegos</h3>
+                    <p>Estrategia y juegos que requieren pensamiento lógico</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Lectura</h3>
+                    <p>Ciencia ficción, tecnología y desarrollo personal</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-chess"></i>
+                    <h3>Ajedrez</h3>
+                    <p>Estrategia y pensamiento crítico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Curiosidades -->
+    <section id="curiosidades" class="section">
+        <div class="container">
+            <h2 class="section-title">Curiosidades</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-number">01</div>
+                    <p>Mi primer lenguaje de programación fue Python a los 15 años</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">02</div>
+                    <p>Puedo escribir código en 6 lenguajes diferentes</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">03</div>
+                    <p>He participado en hackatones y competencias de programación</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">04</div>
+                    <p>Uso Linux como sistema operativo principal</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">05</div>
+                    <p>Me fascina la criptografía y la seguridad informática</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">06</div>
+                    <p>Contribuyo regularmente a proyectos de código abierto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Hablemos</h3>
+                    <p>Estoy disponible para colaboraciones, proyectos o simplemente para charlar sobre tecnología.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>tu-email@ejemplo.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Ciudad, País</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/hectormrales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/tu-id" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Descargas -->
+    <section id="descargas" class="section">
+        <div class="container">
+            <h2 class="section-title">Descargas</h2>
+            <div class="downloads-grid">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Curriculum Vitae</h3>
+                    <p>Mi CV completo en formato PDF</p>
+                    <a href="assets/cv-hector-morales.pdf" download class="btn btn-download">
+                        <i class="fas fa-download"></i> Descargar CV
+                    </a>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Llave Pública PGP</h3>
+                    <p>Para comunicación cifrada (Práctica de Criptografía)</p>
+                    <a href="assets/public-key.asc" download class="btn btn-download">
+                        <i class="fas fa-download"></i> Descargar Llave
+                    </a>
+                    <div class="key-fingerprint">
+                        <small>Fingerprint: XXXX XXXX XXXX XXXX</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Héctor Morales. Todos los derechos reservados.</p>
+            <p>Hecho con <i class="fas fa-heart"></i> y mucho <i class="fas fa-coffee"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
